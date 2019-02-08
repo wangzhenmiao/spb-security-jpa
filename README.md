@@ -21,3 +21,7 @@
     new BCryptPasswordEncoder().encode("admin");
  
  详细见service目录下的Test-main函数
+ 
+ 四、pojo
+ 
+ pojo层=bean层
