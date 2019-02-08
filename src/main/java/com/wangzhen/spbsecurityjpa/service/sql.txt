@@ -1,0 +1,7 @@
+INSERT INTO tb_role ( id, authority)
+                       VALUES
+                       ( 1,'ROLE_ADMIN'),(2,'ROLE_DBA'),(3,'ROLE_USER');
+
+INSERT INTO tb_user ( id,login_name,password,username) VALUES ( 1,'admin','$2a$10$IM2PB0tYsuRPI7e0DCBTce614djoagunLHohvGlPxtApAJPPTZqY.','管理员'),( 2,'fkit','$2a$10$NJ5oWmRbI.DU3azR8jFHW.8Z.Re.dYtLX43K4S56ctPZZi./sZnzq','疯狂软件');
+
+INSERT INTO tb_user_role (user_id,role_id) VALUES (1,1),(1,2),(2,3);
